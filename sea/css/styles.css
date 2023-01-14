@@ -37,8 +37,8 @@ top: 26%;
 left: 23%;}
 
 .top-cloud {position: absolute;
-    left: 80%;
-    top: 10%;}
+    right: 32%;
+    top: 3%;}
 
 .mountain {    width: 100%;
     height: 100%; object-fit: contain;
