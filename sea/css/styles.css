@@ -19,7 +19,8 @@ body {margin: 0px;
     background-repeat: round;
     margin: 0px;
     position: relative;
-    height: 2200px;
+    height: 220vw;
+    width: 220vw;
     }
 
 .middlebox {background-color: #E3F6FF;
