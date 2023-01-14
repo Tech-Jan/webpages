@@ -46,10 +46,13 @@ left: 23vw;}
     height: 100%; object-fit: contain;
     position:relative}
 
-.whale {font-family: Montserrat;}
-.whale-img {transition: transform 10s;
+.whale-font {font-family: Montserrat;}
+
+.whale {transition: transform 10s;
 position: absolute;
             bottom: 50%;}
-.whale-img:hover {
+
+
+.whale:hover {
   transform: scale(3);
 }
