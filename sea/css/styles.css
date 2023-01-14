@@ -1,0 +1,54 @@
+/*************#### tags ###*******/
+
+
+h1  {font-family: Sacramento, Trebuchet MS, sans-serif;
+font-size: 5.625rem;
+padding-top: 300px;
+margin-top: 0px;
+     }
+p {font-family: sans-serif;}
+body {margin: 0px;
+        text-align: center;}
+
+/***************#### class ###*********/
+
+.topbox {
+    background: url(sea_cut.png);
+    background-color: #E3F6FF;
+    background-size: cover;
+    background-repeat: round;
+    margin: 0px;
+    position: relative;
+    height: 2200px;
+    }
+
+.middlebox {background-color: #E3F6FF;
+    margin: 0px;
+    position: relative;
+    padding-top: 200px;}
+
+.bottombox {background-color: #E3F6FF;
+    margin: 0px;
+    position: relative;
+    padding-top: 200px;}
+
+.bottom-cloud {position: absolute;
+top: 512px;
+left: 300px;}
+
+.top-cloud {position: absolute;
+    left: 1111px;
+    right: 300px;
+    top: 50px;}
+
+.mountain {    width: 100%;
+    height: 100%; object-fit: contain;
+    position:relative}
+
+.whale {font-family: Montserrat;}
+.whale-img {transition: transform 10s;
+position: absolute;
+            bottom: 50%;}
+.whale-img:hover {
+  transform: scale(3);
+}
