@@ -19,15 +19,15 @@ body {margin: 0px;
     background-repeat: round;
     margin: 0px;
     position: relative;
-    height: 220vw;
-    width: 220vw;
+    height: 2160px;
+    width: 2160px;
     }
 
 .middlebox {background-color: #E3F6FF;
     margin: 0px;
     position: relative;
     padding-top: 200px;
-        width: 220vw;}
+        width: 2160px;}
 
 .bottombox {background-color: #E3F6FF;
     margin: 0px;
