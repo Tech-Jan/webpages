@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
-jQuery('body,html').animate({scrollLeft: 530, scrollTop: 650}, 5000);
-window.pageYOffset(650)
+jQuery('body').animate({scrollLeft: 530, scrollTop: 650}, 5000);
+window.pageYOffset(650);
 
 })
 
