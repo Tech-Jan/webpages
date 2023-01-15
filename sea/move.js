@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
-jQuery('body,html').animate({scrollLeft: 530}, 3000);
-jQuery('body,html').animate({scrollTop: 650}, 5000);
+jQuery('body,html').animate({scrollLeft: 530, scrollTop: 650}, 5000);
+
 })
 
 jQuery(document).on("move click","body",function(e){
