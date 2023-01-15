@@ -23,8 +23,6 @@ function getRotationAngle(target)
   return (angle < 0) ? angle +=360 : angle;
 }
 
-console.log(getRotationAngle(document.getElementById('whale')))
-
 let box = document.querySelector('.topbox');
 let whale = document.querySelector('.whale');
 let width = box.offsetWidth;
@@ -37,10 +35,16 @@ var rect = whale.getBoundingClientRect();
 var newposX = x  ;
 var newposY = y   ;
 var test = newposX-rect.right +width/2 -+ $scrollleft;
+var testy = newposY-rect.bottom +height/2 -+ $scrolltop;
 var test2 = rect.right - width/2 + $scrollleft - 16;
 var test3 = rect.bottom - height/2 + $scrolltop;
 var transform = 0;
-var time = Math.abs(test)/10;
+
+if (testy>100) {testy=100}
+if (testy<-100) {testy=-100}
+
+var time = (Math.abs(test)+Math.abs(testy))/10;
+if (time<7) {time=7}
 var start = 0;
 
 if (test<0) {transform=180}
