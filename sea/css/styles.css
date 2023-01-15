@@ -56,3 +56,48 @@ position: absolute;
 .whale:hover {
   transform: scale(3) !important;
 }
+
+
+.bubble {
+
+    background: #e6dddd;
+    color: #000000;
+    font-family: Arial;
+    font-size: 5px;
+    text-align: center;
+    width: 45px;
+    height: 32px;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+        position: absolute;
+    bottom: 51.1%;
+    left: 49.8%;
+
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #e6dddd transparent;
+    border-width: 10px 4px 0;
+    bottom: -10px;
+    left: 25%;
+    margin-left: -1px;
+}
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-color: #000000 transparent;
+    border-width: 11px 5px 0;
+    bottom: -11.5px;
+    left: 25%;
+    margin-left: -2px;
+    display: block;
+}
+

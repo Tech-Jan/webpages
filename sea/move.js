@@ -6,7 +6,7 @@ document.getElementById('whale-font').scrollIntoView({
         });
 })
 
-jQuery(document).on("move click","body",function(e){
+jQuery(document).on("click","body",function(e){
 
 function getRotationAngle(target)
 {
@@ -29,6 +29,8 @@ function getRotationAngle(target)
 
   return (angle < 0) ? angle +=360 : angle;
 }
+
+$(".bubble").css({'display':'none'})
 
 let box = document.querySelector('.topbox');
 let whale = document.querySelector('.whale');
