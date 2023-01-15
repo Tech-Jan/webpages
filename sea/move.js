@@ -1,7 +1,5 @@
 jQuery(document).ready(function(){
-jQuery('body').animate({scrollLeft: 530, scrollTop: 650}, 5000);
-window.pageYOffset(650);
-
+jQuery('body,html').animate({scrollLeft: 600}, 3000);
 })
 
 jQuery(document).on("move click","body",function(e){
