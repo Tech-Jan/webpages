@@ -1,7 +1,7 @@
 
 
 
-jQuery(document).on("click","body",function(e){
+jQuery(document).on("move click","body",function(e){
 let box = document.querySelector('.topbox');
 let whale = document.querySelector('.whale');
 let width = box.offsetWidth;
