@@ -48,11 +48,11 @@ left: 23vw;}
 
 .whale-font {font-family: Montserrat;}
 
-.whale {transition: transform 10s;
+.whale {transition: transform 12s;
 position: absolute;
             bottom: 50%;}
 
 
 .whale:hover {
-  transform: scale(3);
+  transform: scale(3) !important;
 }
