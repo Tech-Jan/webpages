@@ -1,5 +1,9 @@
 jQuery(document).ready(function(){
-jQuery('body,html').animate({scrollLeft: 600}, 3000);
+document.getElementById('whale-font').scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'center'
+        });
 })
 
 jQuery(document).on("move click","body",function(e){
