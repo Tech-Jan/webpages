@@ -3,8 +3,24 @@ document.getElementById('whale-font').scrollIntoView({
             behavior: 'smooth',
             block: 'center',
             inline: 'center'
+
+
         });
+
+if (sessionStorage.noFirstVisit) {    // rewrite if visited
+    const div = document.getElementById('bubble');
+    div.innerHTML ='<p>Welcome</p><p>back!</p>';}
+console.log(sessionStorage.noFirstVisit)
+
+
+if (! sessionStorage.noFirstVisit) {
+    // check this flag for escaping this if block next time
+    sessionStorage.noFirstVisit = "1";
+}
 })
+
+
+
 
 jQuery(document).on("click","body",function(e){
 
