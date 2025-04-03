@@ -1,3 +1,4 @@
+localStorage.clear();
 const myImage = document.querySelector("img");
 
 if (myImage) {
@@ -16,20 +17,29 @@ let myHeading = document.querySelector("h1");
 function setUserName() {
   const myName = prompt("Please enter your name.");
   if (!myName) {
-    setUserName();
+    myHeading.textContent = "The Duck is nameless.";
+    setTimeout(setUserName, 0); // Allow UI to update before reopening the prompt
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `THe Duck is named, ${myName}`;
+    myHeading.textContent = `The Duck is named, ${myName}`;
   }
 }
 
+/*
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
   myHeading.textContent = `THe Duck is named, ${storedName}`;
 }
+*/
 
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
+function division(numba1, numba2) {
+  let result;
+  result = numba1 - numba2;
+  return result;
+}
