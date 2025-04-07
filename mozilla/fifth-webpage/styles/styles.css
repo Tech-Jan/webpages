@@ -5,7 +5,7 @@
 
 table {
   background: url("../images/compressed/red-panda.png") no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   color: white;
   font-weight: bold;
