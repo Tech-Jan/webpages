@@ -18,8 +18,18 @@ table td {
 
 table th {
   font-size: 0.85em;
+  text-align: center;
+}
+
+table td:first-child {
+  text-align: left;
 }
 
 table td:last-child {
   font-size: 0.75em;
+  text-align: right;
+}
+
+table td:not(:first-child):not(:last-child) {
+  text-align: center;
 }
