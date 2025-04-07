@@ -1,0 +1,45 @@
+{
+  "planets": [
+    { "id": "mercury", "label": "Mercury" },
+    { "id": "venus", "label": "Venus" },
+    { "id": "earth", "label": "Earth" },
+    { "id": "mars", "label": "Mars" },
+    { "id": "jupiter", "label": "Jupiter" },
+    { "id": "saturn", "label": "Saturn" },
+    { "id": "uranus", "label": "Uranus" },
+    { "id": "neptune", "label": "Neptune" }
+  ],
+  "hotelRooms": [
+    {
+      "id": "economy",
+      "label": "Economy (+$0)",
+      "disabled": false,
+      "checked": true
+    },
+    {
+      "id": "superior",
+      "label": "Superior (+$50)",
+      "disabled": false,
+      "checked": false
+    },
+    {
+      "id": "penthouse",
+      "label": "Penthouse (+$150)",
+      "disabled": true,
+      "checked": false
+    }
+  ],
+  "classes": [
+    { "id": "yoga", "label": "Yoga (+$10)" },
+    { "id": "coffee", "label": "Coffee roasting (+$20)" },
+    { "id": "balloon", "label": "Balloon animal art (+$5)" }
+  ],
+  "transportOptions": [
+    { "value": "plane", "label": "Plane" },
+    { "value": "bike", "label": "Bike" },
+    { "value": "walk", "label": "Walk" },
+    { "value": "bus", "label": "Bus" },
+    { "value": "train", "label": "Train" },
+    { "value": "jetPack", "label": "Jet pack" }
+  ]
+}
