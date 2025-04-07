@@ -1,0 +1,25 @@
+:root {
+  --cell-bg-color: rgba(0, 0, 0, 0.4);
+  --cell-opacity: 0.6;
+}
+
+table {
+  background: url("../images/compressed/red-panda.png") no-repeat center center;
+  background-size: 100%;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+table td {
+  background-color: var(--cell-bg-color);
+  opacity: var(--cell-opacity);
+}
+
+table th {
+  font-size: 0.85em;
+}
+
+table td:last-child {
+  font-size: 0.75em;
+}
