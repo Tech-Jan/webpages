@@ -19,6 +19,7 @@ table td {
 table th {
   font-size: 0.85em;
   text-align: center;
+  /*testing*/
 }
 
 table th:first-child {
