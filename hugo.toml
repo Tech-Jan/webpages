@@ -1,6 +1,7 @@
 baseURL = 'https://tech-jan.github.io/webpages/hugo'
 languageCode = 'en-us'
 title = 'My Sea'
+themedir= "hugo/themes"
 theme = 'ananke'
 [caches]
   [caches.images]
