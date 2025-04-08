@@ -63,17 +63,17 @@ jobs:
             hugo-
       - name: Build with Hugo
         run: |
-          webpages\ hugo \
+            hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"
+            --baseURL "${{ steps.pages.outputs.base_url }}/hugo" \
+            --cacheDir "${{ runner.temp }}/hugo/hugo_cache"
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
         with:
           path: |
-            ${{ runner.temp }}/hugo_cache
+            ${{ runner.temp }}/hugo/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
