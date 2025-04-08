@@ -1,7 +1,0 @@
-baseURL = 'https://tech-jan.github.io/webpages/hugo'
-languageCode = 'en-us'
-title = 'My Sea'
-theme = 'ananke'
-[caches]
-  [caches.images]
-    dir = ':cacheDir/hugo/images'
