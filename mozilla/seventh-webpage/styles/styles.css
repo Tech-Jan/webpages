@@ -1,0 +1,98 @@
+h1 {
+  color: aqua;
+}
+
+h1 + p {
+  color: blueviolet;
+  font-size: 0.85em;
+}
+
+h1 p {
+  color: blue;
+  font-size: 0.75em;
+}
+
+li + em {
+  color: red;
+  font-size: 0.75em;
+}
+
+p + em {
+  color: green;
+  font-size: 0.75em;
+}
+
+p,
+li {
+  color: yellowgreen;
+  font-size: 1.2em;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a:link.mail {
+  color: cadetblue;
+}
+
+a:hover.mail {
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+li.special em {
+  color: black;
+  background-color: goldenrod;
+  padding: 5px;
+}
+
+.outer {
+  border: 5px solid black;
+  color: violet;
+}
+
+.box {
+  --height: 100px;
+  margin: 30px;
+  width: calc(0.9 * var(--height) - 2px);
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn);
+}
+
+body {
+  background-color: rgb(27, 26, 32);
+}
+
+@media (max-width: 100em) {
+  /* Adjust font size for smaller screens */
+  body {
+    font-size: clamp(0.55em, 2vw, 2em);
+  }
+}
+
+.notebox {
+  border: 4px solid #666;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.notebox.warning {
+  border-color: orange;
+  font-weight: bold;
+}
+
+.notebox.danger {
+  border-color: red;
+  font-weight: bold;
+}
