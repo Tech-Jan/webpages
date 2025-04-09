@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(27, 26, 32);
+  color: grey;
+}
+
 h1 {
   color: aqua;
 }
@@ -68,10 +73,6 @@ li.special em {
   height: 100px;
   background-color: rebeccapurple;
   transform: rotate(0.8turn);
-}
-
-body {
-  background-color: rgb(27, 26, 32);
 }
 
 @media (max-width: 100em) {
