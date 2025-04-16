@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let newposX = x;
       let newposY = y;
       const test = newposX - rect.right + width / 2 - scrollLeft;
-      const testy = newposY - rect.bottom + height / 2 - scrollTop;
+      let testy = newposY - rect.bottom + height / 2 - scrollTop;
       const test2 = rect.right - width / 2 + scrollLeft - 16;
       const test3 = rect.bottom - height / 2 + scrollTop;
       let transform = 0;
