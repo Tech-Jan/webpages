@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!whale) return;
 
       const rect = whale.getBoundingClientRect();
-      const newposX = x;
-      const newposY = y;
+      let newposX = x;
+      let newposY = y;
       const test = newposX - rect.right + width / 2 - scrollLeft;
       const testy = newposY - rect.bottom + height / 2 - scrollTop;
       const test2 = rect.right - width / 2 + scrollLeft - 16;
